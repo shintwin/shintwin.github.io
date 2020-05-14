@@ -3052,7 +3052,6 @@ html.no-csstransitions .home-content__main {
   vertical-align: bottom;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  overflow: hidden;
 }
 
 .item-folio__thumb a {
@@ -3254,8 +3253,8 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:400px) {
   .masonry-wrap {
-    padding: 0px;
-
+    padding: 0 25px;
+    
   }
 
 }

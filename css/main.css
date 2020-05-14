@@ -3254,7 +3254,8 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:400px) {
   .masonry-wrap {
-    padding: 0 25px;
+    padding: 0px;
+
   }
 
 }

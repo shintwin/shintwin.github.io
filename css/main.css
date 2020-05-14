@@ -3052,6 +3052,7 @@ html.no-csstransitions .home-content__main {
   vertical-align: bottom;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  overflow: hidden;
 }
 
 .item-folio__thumb a {
@@ -3075,7 +3076,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__thumb a::after {
-  content: " ";
+  content: "";
   opacity: 50%;
   font-family: georgia, serif;
   font-size: 2.7rem;
@@ -3150,7 +3151,7 @@ html.no-csstransitions .home-content__main {
   position: absolute;
   top: 3rem;
   left: 3rem;
-  opacity: 0;
+  opacity: 0.5;
   visibility: hidden;
   -webkit-transform: translate3d(0, -100%, 0);
   -ms-transform: translate3d(0, -100%, 0);
